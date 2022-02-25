@@ -1,8 +1,8 @@
-import React from "react";
-import styles from './styles.module.css'
+import React from 'react'
+import styles from './styles.module.scss'
 
-function Button({label, variant, children}) {
-  return <button className={styles[variant]}>{children}</button>;
+function Button({variant, children}) {
+  return ( <button className={styles[variant]}>{children}</button> );
 }
 
 export default Button;

@@ -1,0 +1,31 @@
+%buttonBase{
+  background-color: transparent;
+  border: none;
+  border-radius: 3px;
+  box-shadow: 0 0 3px 1px rgb(219, 219, 219);
+  margin: 2rem;
+  padding: 0.25rem 2rem;
+  color: grey;
+}
+
+.default{
+  @extend %buttonBase;
+}
+
+.warning{
+  @extend %buttonBase;
+  background-color: orangered;
+  color: white;
+}
+
+.info{
+  @extend %buttonBase;
+  background-color: cornflowerblue;
+  color: white;
+}
+
+.danger{
+  @extend %buttonBase;
+  background-color: crimson;
+  color: white;
+}
