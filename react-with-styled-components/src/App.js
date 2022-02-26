@@ -3,7 +3,7 @@ import {Button} from './ui/buttons'
 function App() {
   return (
     <>
-      <Button bgcolor="crimson" color="white">
+      <Button bgcolor="red" color="white">
         UI Button
       </Button>
       <Button bgcolor="orange" color="white">
